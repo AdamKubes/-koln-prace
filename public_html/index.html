@@ -1,0 +1,56 @@
+<DOCTYPE html>
+    <html lang="cs">
+        <head>
+            <title>
+                ZT2A
+            </title>
+            <meta charset"utf-8">
+        </head>
+        <body>
+            <style>
+            .red{
+            color:red;
+            </style>
+            <from action="index.php">
+                <h2>vitejte na me strance</h2>
+                <input class="red"name="username"type="text"value="jmeno">
+                <input class="red"name="password"type="password"value="heslo">
+                <input type="submit"name="odeslat1"value="Odeslat">
+                <br>
+                <b>Pohlavi</b> 
+                <br>
+                <input type="radio"name="pohlaví"value="muz">
+                <input type="radio"name="pohlaví"value="zena">
+                <input type="radio"name="pohlaví"value=buzerant">
+                <br>
+                <b>Studuje</b>
+                <br>
+                <input type="radio"name="studuje"value="1"checked>Ano
+                <input type="radio"name="studuje"value="0"checked>Ne
+                <br>
+                <b>Vaha</b>
+                <br>
+                <select name="vaha">
+                    <option value="0"selected>----Vyber Vahu----</option>
+                    <option value="1"selected>1-10</option>
+                    <option value="2"selected>10-50</option>
+                    <option value="3"selected>50-100</option>
+                    <option value="4"selected>100-více</option>
+                </select>
+                <br>
+                <br>
+                <table border="3" cellpadding="5">
+                    <tr>
+                        <td>nice</td>
+                        <td>1.2</td>
+                    </tr>
+                    <tr>
+                        <td>2.1</td>
+                        <td>2.2</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <input type="file"name="foto">
+            </from>
+        </body>
